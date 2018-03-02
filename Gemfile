@@ -49,8 +49,7 @@ end
 
 group :production do
   #Gem to prosgres
-  gem 'pg'
-  
+  gem 'pg', '~> 0.11'
   #rails 12 factior
   gem 'rails_12factor'
 
